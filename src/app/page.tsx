@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <header>
-        <video src="video/gdbanner.mp4" autoPlay muted loop playsInline></video>
+        <video className='w-full' src="video/gdbanner.mp4" autoPlay muted loop playsInline></video>
       </header>
       <main>
         <section className="relative">

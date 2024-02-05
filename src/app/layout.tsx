@@ -18,16 +18,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="absolute top-[5%] left-[6%] text-[#eba941] text-3xl z-10">
-          <span>
-            <Link href="/">desing</Link>
-          </span>
-          <span> & </span>
-          <Link href="video">video</Link>
-        </div>
-        <video autoPlay muted loop playsInline>
-          <source src="video/portada.mp4" />
-        </video>
+        <section className="relative">
+          <div className="absolute z-10 text-[#eba941] text-md top-1 lg:top-[5%] left-[6%] lg:text-3xl ">
+            <span>
+              <Link href="/" className="hover:underline">
+                desing
+              </Link>
+            </span>
+            <span> & </span>
+            <Link href="video" className="hover:underline">
+              video
+            </Link>
+          </div>
+          <a
+            className="absolute text-[#eba941] text-xs font-medium z-10 left-[5.2%] bottom-[2%] hover:underline lg:bottom-[7%] lg:text-3xl"
+            href="https://www.linkedin.com/in/laura-castro-961a13174/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+          <video className="w-full" autoPlay muted loop playsInline>
+            <source src="video/portada.mp4" />
+          </video>
+        </section>
         <div className={inter.className}>{children}</div>
       </body>
     </html>
