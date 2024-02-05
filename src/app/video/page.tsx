@@ -20,7 +20,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/7BdbnSJhuBg?si=n3VgtvkNIWjyhDVb"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <section>
@@ -29,7 +28,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/POx5nY7AL_E?si=mG8f6djGOvpXub7J"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <section>
@@ -38,7 +36,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/oo862phRd88?si=QzNuCCHEyZV56h2Y"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <section>
@@ -47,7 +44,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/5rn6cCw7t0o?si=Q-5I59SfzG9FGotl"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <section>
@@ -56,7 +52,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/o9IQa_iuNH4?si=QNbFK2yGZGa0tr55"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <section>
@@ -65,7 +60,6 @@ export default function Video() {
             src="https://www.youtube.com/embed/ioPzxs4etSQ?si=G-zWlt3Aw9Q2yt0F"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </section>
         <video
