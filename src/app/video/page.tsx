@@ -14,6 +14,14 @@ export default function Video() {
         ></video>
       </header>
       <main className="w-full bg-stone-800 md:p-10 ">
+      <section>
+          <iframe
+            className="w-full h-[250px] mt-10 md:h-[500px] lg:h-[700px] lg:w-3/4 lg:mx-auto xl:w-4/6"
+            src="https://www.youtube.com/embed/-K91TUIZzvc?si=TWLPCrNtuTnSXPh3"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </section>
         <section>
           <iframe
             className="w-full h-[250px] mt-10 md:h-[500px] lg:h-[700px] lg:w-3/4 lg:mx-auto xl:w-4/6"
